@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ufaqf3oYLkHXO5I8LoZupi2/kAStgr7TbqQkpxcQG9cjEs+sIJujBg9GlotTtuqueXG/ckZBv3dMa7MZBE8iUQ==",
+  "dgSpecHash": "xypg+WhgufWYMvLbtm9XBtCsGyMyb9hjPLFIdgdctD4fm1j31/lo47oM4FsbejbbZGkWwtXdJoGbUTXqkGHZzA==",
   "success": true,
   "projectFilePath": "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\Presentacion\\Presentacion.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\UBICACION GAMER\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\UBICACION GAMER\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\UBICACION GAMER\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\UBICACION GAMER\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\UBICACION GAMER\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",

@@ -1,45 +1,116 @@
 ﻿using Aplicacion.DTO;
 using Aplicacion.Servicios;
-using Persistencia_de_Datos;
 using Dominio.Value_Object;
-using System;
+using Persistencia_de_Datos;
+using Microsoft.Extensions.DependencyInjection;
+using Dominio.Repositorios;
 
 namespace Presentacion
 {
-    public class Program
+    class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            // Instanciar el repositorio en memoria
-            DoctorRepositorioEnMemoria doctorRepositorio = new DoctorRepositorioEnMemoria();
+            // Configuración de servicios => Enum.Parse: Se usa para convertir la entrada del usuario en un valor Estado.EstadoEnum.
+            var serviceProvider = new ServiceCollection()
+                .AddSingleton<IDoctorServicio, DoctorServicio>()
+                .AddSingleton<DoctorRepositorio, DoctorRepositorioEnMemoria>()
+                .BuildServiceProvider();
 
-            // Instanciar el servicio de aplicación
-            IDoctorServicio doctorServicio = new DoctorServicio(doctorRepositorio);
+            var doctorServicio = serviceProvider.GetService<IDoctorServicio>();
 
-            // Ejemplo de uso del servicio
-            // Listar doctores
+            bool salir = false;
+            while (!salir)
+            {
+                Console.WriteLine("\n==== Menú de Doctores ====");
+                Console.WriteLine("1. Listar Doctores");
+                Console.WriteLine("2. Registrar Doctor");
+                Console.WriteLine("3. Actualizar Doctor");
+                Console.WriteLine("4. Eliminar Doctor");
+                Console.WriteLine("5. Salir");
+                Console.Write("Seleccione una opción: ");
+
+                switch (Console.ReadLine())
+                {
+                    case "1":
+                        ListarDoctores(doctorServicio);
+                        break;
+                    case "2":
+                        RegistrarDoctor(doctorServicio);
+                        break;
+                    case "3":
+                        ActualizarDoctor(doctorServicio);
+                        break;
+                    case "4":
+                        EliminarDoctor(doctorServicio);
+                        break;
+                    case "5":
+                        salir = true;
+                        break;
+                    default:
+                        Console.WriteLine("Opción no válida. Intente de nuevo.");
+                        break;
+                }
+            }
+        }
+
+        private static void ListarDoctores(IDoctorServicio doctorServicio)
+        {
+            Console.WriteLine("\n==== Lista de Doctores ====");
             var doctores = doctorServicio.ListarDoctores();
             foreach (var doctor in doctores)
             {
-                Console.WriteLine($"ID: {doctor.Id}, Nombre: {doctor.Nombre}, Apellido: {doctor.Apellido}");
+                Console.WriteLine($"ID: {doctor.Id}\nNombre: {doctor.Nombre}\nApellido: {doctor.Apellido}\nFecha de Ingreso: {doctor.FechaIngreso}\nEstado: {doctor.Estado}\n");
             }
+        }
 
-            // Registrar un nuevo doctor
-            // Asegúrate de crear un objeto Estado antes de pasarlo a DoctorDTO
-            Estado estadoActivo = new Estado(Estado.EstadoEnum.Activo); // Crear el estado aquí
-            DoctorDTO nuevoDoctor = new DoctorDTO(
-                Guid.NewGuid(), "Ana", "López", DateTime.Now, estadoActivo);
+        private static void RegistrarDoctor(IDoctorServicio doctorServicio)
+        {
+            Console.WriteLine("\n==== Registrar Nuevo Doctor ====");
+            Console.Write("Nombre: ");
+            string nombre = Console.ReadLine();
+            Console.Write("Apellido: ");
+            string apellido = Console.ReadLine();
+            Console.Write("Fecha de Ingreso (yyyy-MM-dd): ");
+            DateTime fechaIngreso = DateTime.Parse(Console.ReadLine());
+            Console.Write("Estado (Activo/Inactivo): ");
+            Estado.EstadoEnum estadoEnum = (Estado.EstadoEnum)Enum.Parse(typeof(Estado.EstadoEnum), Console.ReadLine(), true);
+            Estado estado = new Estado(estadoEnum);
+
+            DoctorDTO nuevoDoctor = new DoctorDTO(Guid.NewGuid(), nombre, apellido, fechaIngreso, estado);
             doctorServicio.RegistrarDoctor(nuevoDoctor);
+            Console.WriteLine("Doctor registrado exitosamente.");
+        }
 
-            // Mostrar información actualizada
-            Console.WriteLine("\nDoctores actualizados:");
-            doctores = doctorServicio.ListarDoctores();
-            foreach (var doctor in doctores)
-            {
-                Console.WriteLine($"ID: {doctor.Id}, Nombre: {doctor.Nombre}, Apellido: {doctor.Apellido}");
-            }
+        private static void ActualizarDoctor(IDoctorServicio doctorServicio)
+        {
+            Console.WriteLine("\n==== Actualizar Doctor ====");
+            Console.Write("Ingrese el ID del doctor a actualizar: ");
+            Guid id = Guid.Parse(Console.ReadLine());
 
-            Console.ReadLine(); // Para mantener la consola abierta
+            Console.Write("Nuevo Nombre: ");
+            string nombre = Console.ReadLine();
+            Console.Write("Nuevo Apellido: ");
+            string apellido = Console.ReadLine();
+            Console.Write("Nueva Fecha de Ingreso (yyyy-MM-dd): ");
+            DateTime fechaIngreso = DateTime.Parse(Console.ReadLine());
+            Console.Write("Nuevo Estado (Activo/Inactivo): ");
+            Estado.EstadoEnum estadoEnum = (Estado.EstadoEnum)Enum.Parse(typeof(Estado.EstadoEnum), Console.ReadLine(), true);
+            Estado estado = new Estado(estadoEnum);
+
+            DoctorDTO doctorActualizado = new DoctorDTO(id, nombre, apellido, fechaIngreso, estado);
+            doctorServicio.ActualizarDoctor(id, doctorActualizado);
+            Console.WriteLine("Doctor actualizado exitosamente.");
+        }
+
+        private static void EliminarDoctor(IDoctorServicio doctorServicio)
+        {
+            Console.WriteLine("\n==== Eliminar Doctor ====");
+            Console.Write("Ingrese el ID del doctor a eliminar: ");
+            Guid id = Guid.Parse(Console.ReadLine());
+
+            doctorServicio.EliminarDoctor(id);
+            Console.WriteLine("Doctor eliminado exitosamente.");
         }
     }
 }

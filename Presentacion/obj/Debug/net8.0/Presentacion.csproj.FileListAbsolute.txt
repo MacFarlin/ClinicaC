@@ -26,3 +26,5 @@ C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Labora
 C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\Presentacion\obj\Debug\net8.0\Presentacion.pdb
 C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\Presentacion\obj\Debug\net8.0\Presentacion.genruntimeconfig.cache
 C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\Presentacion\obj\Debug\net8.0\ref\Presentacion.dll
+C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\Presentacion\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\Presentacion\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll

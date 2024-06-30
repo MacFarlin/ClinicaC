@@ -1,16 +1,17 @@
 ﻿using Dominio.Entidades;
 using Dominio.Value_Object;
+
 namespace Aplicacion.DTO
 {
     public class DoctorDTO
     {
-        public DoctorDTO(Guid id, string nombre, string apellido, DateTime fechaIngreso, Estado.EstadoEnum estado)
+        public DoctorDTO(Guid id, string nombre, string apellido, DateTime fechaIngreso, Estado estado)
         {
             Id = id;
             Nombre = nombre;
             Apellido = apellido;
             FechaIngreso = fechaIngreso;
-            Estado = estado;
+            Estado = estado.GetValor(); // Aquí accedemos al valor Enum dentro de Estado
         }
 
         public Guid Id { get; set; }

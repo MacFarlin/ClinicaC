@@ -2,8 +2,9 @@
 using Aplicacion.Servicios;
 using Persistencia_de_Datos;
 using Dominio.Value_Object;
+using System;
 
-namespace Presentacion.Consola
+namespace Presentacion
 {
     public class Program
     {
@@ -24,8 +25,10 @@ namespace Presentacion.Consola
             }
 
             // Registrar un nuevo doctor
+            // Asegúrate de crear un objeto Estado antes de pasarlo a DoctorDTO
+            Estado estadoActivo = new Estado(Estado.EstadoEnum.Activo); // Crear el estado aquí
             DoctorDTO nuevoDoctor = new DoctorDTO(
-                Guid.NewGuid(), "Ana", "López", DateTime.Now, Estado.EstadoEnum.Activo);
+                Guid.NewGuid(), "Ana", "López", DateTime.Now, estadoActivo);
             doctorServicio.RegistrarDoctor(nuevoDoctor);
 
             // Mostrar información actualizada

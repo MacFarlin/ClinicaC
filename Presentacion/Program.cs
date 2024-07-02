@@ -2,8 +2,6 @@
 using Aplicacion.Servicios;
 using Dominio.Value_Object;
 using Persistencia_de_Datos;
-using Microsoft.Extensions.DependencyInjection;
-using Dominio.Repositorios;
 
 namespace Presentacion
 {
@@ -11,13 +9,11 @@ namespace Presentacion
     {
         static void Main(string[] args)
         {
-            // Configuración de servicios => Enum.Parse: Se usa para convertir la entrada del usuario en un valor Estado.EstadoEnum.
-            var serviceProvider = new ServiceCollection()
-                .AddSingleton<IDoctorServicio, DoctorServicio>()
-                .AddSingleton<DoctorRepositorio, DoctorRepositorioEnMemoria>()
-                .BuildServiceProvider();
+            // Crear instancia del repositorio en memoria
+            var doctorRepositorio = new DoctorRepositorioEnMemoria();
 
-            var doctorServicio = serviceProvider.GetService<IDoctorServicio>();
+            // Crear instancia del servicio de doctores
+            var doctorServicio = new DoctorServicio(doctorRepositorio);
 
             bool salir = false;
             while (!salir)
@@ -72,9 +68,19 @@ namespace Presentacion
             Console.Write("Apellido: ");
             string apellido = Console.ReadLine();
             Console.Write("Fecha de Ingreso (yyyy-MM-dd): ");
-            DateTime fechaIngreso = DateTime.Parse(Console.ReadLine());
+            DateTime fechaIngreso;
+            while (!DateTime.TryParseExact(Console.ReadLine(), "yyyy-MM-dd", null, System.Globalization.DateTimeStyles.None, out fechaIngreso))
+            {
+                Console.WriteLine("Formato de fecha incorrecto. Intente de nuevo.");
+                Console.Write("Fecha de Ingreso (yyyy-MM-dd): ");
+            }
             Console.Write("Estado (Activo/Inactivo): ");
-            Estado.EstadoEnum estadoEnum = (Estado.EstadoEnum)Enum.Parse(typeof(Estado.EstadoEnum), Console.ReadLine(), true);
+            Estado.EstadoEnum estadoEnum;
+            while (!Enum.TryParse(Console.ReadLine(), true, out estadoEnum) || !Enum.IsDefined(typeof(Estado.EstadoEnum), estadoEnum))
+            {
+                Console.WriteLine("Estado no válido. Intente de nuevo.");
+                Console.Write("Estado (Activo/Inactivo): ");
+            }
             Estado estado = new Estado(estadoEnum);
 
             DoctorDTO nuevoDoctor = new DoctorDTO(Guid.NewGuid(), nombre, apellido, fechaIngreso, estado);
@@ -86,16 +92,31 @@ namespace Presentacion
         {
             Console.WriteLine("\n==== Actualizar Doctor ====");
             Console.Write("Ingrese el ID del doctor a actualizar: ");
-            Guid id = Guid.Parse(Console.ReadLine());
+            Guid id;
+            while (!Guid.TryParse(Console.ReadLine(), out id))
+            {
+                Console.WriteLine("ID no válido. Intente de nuevo.");
+                Console.Write("Ingrese el ID del doctor a actualizar: ");
+            }
 
             Console.Write("Nuevo Nombre: ");
             string nombre = Console.ReadLine();
             Console.Write("Nuevo Apellido: ");
             string apellido = Console.ReadLine();
             Console.Write("Nueva Fecha de Ingreso (yyyy-MM-dd): ");
-            DateTime fechaIngreso = DateTime.Parse(Console.ReadLine());
+            DateTime fechaIngreso;
+            while (!DateTime.TryParseExact(Console.ReadLine(), "yyyy-MM-dd", null, System.Globalization.DateTimeStyles.None, out fechaIngreso))
+            {
+                Console.WriteLine("Formato de fecha incorrecto. Intente de nuevo.");
+                Console.Write("Nueva Fecha de Ingreso (yyyy-MM-dd): ");
+            }
             Console.Write("Nuevo Estado (Activo/Inactivo): ");
-            Estado.EstadoEnum estadoEnum = (Estado.EstadoEnum)Enum.Parse(typeof(Estado.EstadoEnum), Console.ReadLine(), true);
+            Estado.EstadoEnum estadoEnum;
+            while (!Enum.TryParse(Console.ReadLine(), true, out estadoEnum) || !Enum.IsDefined(typeof(Estado.EstadoEnum), estadoEnum))
+            {
+                Console.WriteLine("Estado no válido. Intente de nuevo.");
+                Console.Write("Nuevo Estado (Activo/Inactivo): ");
+            }
             Estado estado = new Estado(estadoEnum);
 
             DoctorDTO doctorActualizado = new DoctorDTO(id, nombre, apellido, fechaIngreso, estado);
@@ -107,7 +128,12 @@ namespace Presentacion
         {
             Console.WriteLine("\n==== Eliminar Doctor ====");
             Console.Write("Ingrese el ID del doctor a eliminar: ");
-            Guid id = Guid.Parse(Console.ReadLine());
+            Guid id;
+            while (!Guid.TryParse(Console.ReadLine(), out id))
+            {
+                Console.WriteLine("ID no válido. Intente de nuevo.");
+                Console.Write("Ingrese el ID del doctor a eliminar: ");
+            }
 
             doctorServicio.EliminarDoctor(id);
             Console.WriteLine("Doctor eliminado exitosamente.");

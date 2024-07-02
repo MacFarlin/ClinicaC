@@ -12,7 +12,7 @@
 
         private void debeContenerFechaIngreso(DateTime valor)
         {
-            DateTime fechaMinima = new DateTime(2000, 1, 1);
+            DateTime fechaMinima = new DateTime(1950, 1, 1);
 
             if (valor < fechaMinima)
             {

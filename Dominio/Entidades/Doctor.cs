@@ -59,9 +59,9 @@ namespace Dominio.Entidades
             this.fechaIngreso = new FechaIngreso(fecha);
         }
 
-        public void ActualizarEstado(Estado estado)
+        public void ActualizarEstado(Estado nuevoEstado)
         {
-            this.estado = estado;
+            this.estado = nuevoEstado;
         }
 
         public void Borrar()

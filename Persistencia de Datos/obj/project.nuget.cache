@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lHRTcRLZjzj+yEJyA9gS1kUCvgVLalIy+KFbYojUj2114MwZz+iqZNODr5jDUdr2Vpo8TpKn38Sv+yXyoKSZ0A==",
+  "dgSpecHash": "XVpPsPfEqzkjobuxN/Sw5SpWDpskQddNjmbLOK2r1nfemRlA2J1C69WMIbccObeGJAIudMqCm7XTOgj9AWf22g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\Persistencia de Datos\\Persistencia de Datos.csproj",
+  "projectFilePath": "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\clinic-main\\Persistencia de Datos\\Persistencia de Datos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\UBICACION GAMER\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\UBICACION GAMER\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

@@ -2,7 +2,7 @@
 using Dominio.Repositorios;
 namespace Persistencia_de_Datos
 {
-        public class DoctorRepositorioEnMemoria : DoctorRepositorio
+        public class DoctorRepositorioEnMemoria : DoctorRepositorio 
         {
             private List<Doctor> doctores = new List<Doctor>();
 

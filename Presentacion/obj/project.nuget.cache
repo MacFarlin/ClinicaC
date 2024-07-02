@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xypg+WhgufWYMvLbtm9XBtCsGyMyb9hjPLFIdgdctD4fm1j31/lo47oM4FsbejbbZGkWwtXdJoGbUTXqkGHZzA==",
+  "dgSpecHash": "wIER8mJvoQrGKNmbumiqV6SDhCtqAiEnk4JSuw0sbYEDjqvQ8UWZNdl4SX/VS78MQ8T8eE24hUlK+x4bI4DYpA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\Presentacion\\Presentacion.csproj",
+  "projectFilePath": "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\clinic-main\\Presentacion\\Presentacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\UBICACION GAMER\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\UBICACION GAMER\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",

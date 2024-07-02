@@ -21,14 +21,41 @@ C:\Users\Urich\Desktop\ClinicaC\Dominio\obj\Debug\net8.0\Dominio.dll
 C:\Users\Urich\Desktop\ClinicaC\Dominio\obj\Debug\net8.0\refint\Dominio.dll
 C:\Users\Urich\Desktop\ClinicaC\Dominio\obj\Debug\net8.0\Dominio.pdb
 C:\Users\Urich\Desktop\ClinicaC\Dominio\obj\Debug\net8.0\ref\Dominio.dll
-C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\clinic-main\Dominio\obj\Debug\net8.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\clinic-main\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfoInputs.cache
-C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\clinic-main\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfo.cs
-C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\clinic-main\Dominio\obj\Debug\net8.0\Dominio.csproj.CoreCompileInputs.cache
-C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\clinic-main\Dominio\obj\Debug\net8.0\Dominio.dll
-C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\clinic-main\Dominio\obj\Debug\net8.0\refint\Dominio.dll
-C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\clinic-main\Dominio\obj\Debug\net8.0\Dominio.pdb
-C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\clinic-main\Dominio\bin\Debug\net8.0\Dominio.deps.json
-C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\clinic-main\Dominio\bin\Debug\net8.0\Dominio.dll
-C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\clinic-main\Dominio\bin\Debug\net8.0\Dominio.pdb
-C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\clinic-main\Dominio\obj\Debug\net8.0\ref\Dominio.dll
+C:\Users\Usuario\Desktop\repoMacFarlin\clinic\Dominio\bin\Debug\net8.0\Dominio.deps.json
+C:\Users\Usuario\Desktop\repoMacFarlin\clinic\Dominio\bin\Debug\net8.0\Dominio.dll
+C:\Users\Usuario\Desktop\repoMacFarlin\clinic\Dominio\bin\Debug\net8.0\Dominio.pdb
+C:\Users\Usuario\Desktop\repoMacFarlin\clinic\Dominio\obj\Debug\net8.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\repoMacFarlin\clinic\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\repoMacFarlin\clinic\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\repoMacFarlin\clinic\Dominio\obj\Debug\net8.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\repoMacFarlin\clinic\Dominio\obj\Debug\net8.0\Dominio.sourcelink.json
+C:\Users\Usuario\Desktop\repoMacFarlin\clinic\Dominio\obj\Debug\net8.0\Dominio.dll
+C:\Users\Usuario\Desktop\repoMacFarlin\clinic\Dominio\obj\Debug\net8.0\refint\Dominio.dll
+C:\Users\Usuario\Desktop\repoMacFarlin\clinic\Dominio\obj\Debug\net8.0\Dominio.pdb
+C:\Users\Usuario\Desktop\repoMacFarlin\clinic\Dominio\obj\Debug\net8.0\ref\Dominio.dll
+C:\Users\Usuario\Desktop\repoMacFarlin\clinic\Dominio\obj\Debug\net8.0\Dominio.csproj.AssemblyReference.cache
+C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\clinicaUltima-main\Dominio\bin\Debug\net8.0\Dominio.deps.json
+C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\clinicaUltima-main\Dominio\bin\Debug\net8.0\Dominio.dll
+C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\clinicaUltima-main\Dominio\bin\Debug\net8.0\Dominio.pdb
+C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\clinicaUltima-main\Dominio\obj\Debug\net8.0\Dominio.csproj.AssemblyReference.cache
+C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\clinicaUltima-main\Dominio\obj\Debug\net8.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\clinicaUltima-main\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\clinicaUltima-main\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfo.cs
+C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\clinicaUltima-main\Dominio\obj\Debug\net8.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\clinicaUltima-main\Dominio\obj\Debug\net8.0\Dominio.dll
+C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\clinicaUltima-main\Dominio\obj\Debug\net8.0\refint\Dominio.dll
+C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\clinicaUltima-main\Dominio\obj\Debug\net8.0\Dominio.pdb
+C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\clinicaUltima-main\Dominio\obj\Debug\net8.0\ref\Dominio.dll
+C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\ClinicaC\Dominio\bin\Debug\net8.0\Dominio.deps.json
+C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\ClinicaC\Dominio\bin\Debug\net8.0\Dominio.dll
+C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\ClinicaC\Dominio\bin\Debug\net8.0\Dominio.pdb
+C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\ClinicaC\Dominio\obj\Debug\net8.0\Dominio.csproj.AssemblyReference.cache
+C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\ClinicaC\Dominio\obj\Debug\net8.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\ClinicaC\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\ClinicaC\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfo.cs
+C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\ClinicaC\Dominio\obj\Debug\net8.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\ClinicaC\Dominio\obj\Debug\net8.0\Dominio.sourcelink.json
+C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\ClinicaC\Dominio\obj\Debug\net8.0\Dominio.dll
+C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\ClinicaC\Dominio\obj\Debug\net8.0\refint\Dominio.dll
+C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\ClinicaC\Dominio\obj\Debug\net8.0\Dominio.pdb
+C:\Users\UBICACION GAMER\Documents\UNPAZ\Tercer Año\Segundo Cuatrimestre\Laboratorio de Software\Recuperatorio SOLID\ClinicaMacFarlin\ClinicaC\Dominio\obj\Debug\net8.0\ref\Dominio.dll

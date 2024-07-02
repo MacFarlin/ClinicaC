@@ -11,6 +11,10 @@ namespace Presentacion
         {
             // Crear instancia del repositorio en memoria
             var doctorRepositorio = new DoctorRepositorioEnMemoria();
+            //var doctorRepositorio = new DoctorRepositorioSQL();
+           // var doctorRepositorio = new DoctorRepositorioMongoDB();
+
+
 
             // Crear instancia del servicio de doctores
             var doctorServicio = new DoctorServicio(doctorRepositorio);

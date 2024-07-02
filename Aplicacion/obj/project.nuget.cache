@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ooX0yeF5I+p43e7S74eVq9CuvcJ2FA4I1QfXiRo8U3K5OwGgfB3E4XMJPoyfyTHbhr4VFUFFabyZ589+0yscOw==",
+  "dgSpecHash": "4a6jy6hXUg5ym4Cdu6WD61JStVvoPKz/kBYzk9t0NguroRCi8WnteJBXs6b6N9FO8OKs7k0oSb+4KY6zaMWpsw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\clinic-main\\Aplicacion\\Aplicacion.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\ClinicaC\\Aplicacion\\Aplicacion.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\UBICACION GAMER\\.nuget\\packages\\mongodb.bson\\2.27.0\\mongodb.bson.2.27.0.nupkg.sha512",
+    "C:\\Users\\UBICACION GAMER\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\UBICACION GAMER\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

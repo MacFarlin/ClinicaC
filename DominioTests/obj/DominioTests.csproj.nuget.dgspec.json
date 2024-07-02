@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\clinic-main\\DominioTests\\DominioTests.csproj": {}
+    "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\ClinicaC\\DominioTests\\DominioTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\clinic-main\\DominioTests\\DominioTests.csproj": {
+    "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\ClinicaC\\DominioTests\\DominioTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\clinic-main\\DominioTests\\DominioTests.csproj",
+        "projectUniqueName": "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\ClinicaC\\DominioTests\\DominioTests.csproj",
         "projectName": "DominioTests",
-        "projectPath": "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\clinic-main\\DominioTests\\DominioTests.csproj",
+        "projectPath": "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\ClinicaC\\DominioTests\\DominioTests.csproj",
         "packagesPath": "C:\\Users\\UBICACION GAMER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\clinic-main\\DominioTests\\obj\\",
+        "outputPath": "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\ClinicaC\\DominioTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\UBICACION GAMER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\clinic-main\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\clinic-main\\Dominio\\Dominio.csproj"
+              "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\ClinicaC\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\ClinicaC\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\clinic-main\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\ClinicaC\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\clinic-main\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\ClinicaC\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\clinic-main\\Dominio\\Dominio.csproj",
+        "projectPath": "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\ClinicaC\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\UBICACION GAMER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\clinic-main\\Dominio\\obj\\",
+        "outputPath": "C:\\Users\\UBICACION GAMER\\Documents\\UNPAZ\\Tercer Año\\Segundo Cuatrimestre\\Laboratorio de Software\\Recuperatorio SOLID\\ClinicaMacFarlin\\ClinicaC\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\UBICACION GAMER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -126,6 +126,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.27.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
